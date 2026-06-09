@@ -1,0 +1,15 @@
+# Ignore actual ROM files (copyrighted - do not commit)
+roms/*.bin
+roms/*.gen
+roms/*.smd
+# Ignore .md files in roms/ EXCEPT the README
+roms/[!R]*.md
+roms/R[!E]*.md
+
+# Ignore actual WAV audio files (large binary files - do not commit)
+audio/wav/*.wav
+audio/wav/*.WAV
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
